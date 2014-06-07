@@ -55,6 +55,8 @@
                     </view>
                     <connections>
                         <outlet property="backgroundImage" destination="Iro-Dl-Pdd" id="Z6r-Uh-KWA"/>
+                        <outlet property="haPraxeLabel" destination="Kib-LQ-JLv" id="rLl-6a-uOF"/>
+                        <outlet property="reasonLabel" destination="p0K-FW-n8a" id="R1o-6h-oEj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

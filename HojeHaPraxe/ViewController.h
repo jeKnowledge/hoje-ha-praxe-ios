@@ -10,4 +10,12 @@
 
 @interface ViewController : UIViewController
 
+//Background Image
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
+
+//Dynamic Text Labels
+@property (weak, nonatomic) IBOutlet UILabel *haPraxeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *reasonLabel;
+
+
 @end
