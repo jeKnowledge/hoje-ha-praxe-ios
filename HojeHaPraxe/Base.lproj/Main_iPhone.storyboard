@@ -56,6 +56,7 @@
                     <connections>
                         <outlet property="backgroundImage" destination="Iro-Dl-Pdd" id="Z6r-Uh-KWA"/>
                         <outlet property="haPraxeLabel" destination="Kib-LQ-JLv" id="rLl-6a-uOF"/>
+                        <outlet property="notificationLabel" destination="Rcp-Gy-Ou4" id="uJ1-rP-6Qh"/>
                         <outlet property="reasonLabel" destination="p0K-FW-n8a" id="R1o-6h-oEj"/>
                     </connections>
                 </viewController>
