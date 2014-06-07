@@ -8,6 +8,13 @@
 
 #import "ViewController.h"
 
+// THe APIObject class.
+@interface APIObject : NSObject
+@property (strong, nonatomic) NSString *hapraxe;
+@property (strong, nonatomic) NSString *reason;
+@property (strong, nonatomic) NSString *notification;
+@end
+
 @interface ViewController ()
 
 @end
