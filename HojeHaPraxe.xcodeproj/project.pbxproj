@@ -22,7 +22,8 @@
 		6312985F19428E7C002C2033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6312983E19428E7C002C2033 /* UIKit.framework */; };
 		6312986719428E7C002C2033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6312986519428E7C002C2033 /* InfoPlist.strings */; };
 		6312986919428E7C002C2033 /* HojeHaPraxeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6312986819428E7C002C2033 /* HojeHaPraxeTests.m */; };
-		6312987519429E55002C2033 /* praxeappbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6312987419429E55002C2033 /* praxeappbg.png */; };
+		6312987519429E55002C2033 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6312987419429E55002C2033 /* background.png */; };
+		D2763C2419436308001057F8 /* APIObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D2763C2319436308001057F8 /* APIObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +57,9 @@
 		6312986419428E7C002C2033 /* HojeHaPraxeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HojeHaPraxeTests-Info.plist"; sourceTree = "<group>"; };
 		6312986619428E7C002C2033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6312986819428E7C002C2033 /* HojeHaPraxeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HojeHaPraxeTests.m; sourceTree = "<group>"; };
-		6312987419429E55002C2033 /* praxeappbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = praxeappbg.png; sourceTree = "<group>"; };
+		6312987419429E55002C2033 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../background.png; sourceTree = "<group>"; };
+		D2763C2219436308001057F8 /* APIObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIObject.h; sourceTree = "<group>"; };
+		D2763C2319436308001057F8 /* APIObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +89,6 @@
 		6312982E19428E7C002C2033 = {
 			isa = PBXGroup;
 			children = (
-				6312987419429E55002C2033 /* praxeappbg.png */,
 				6312984019428E7C002C2033 /* HojeHaPraxe */,
 				6312986219428E7C002C2033 /* HojeHaPraxeTests */,
 				6312983919428E7C002C2033 /* Frameworks */,
@@ -123,6 +125,7 @@
 				6312984F19428E7C002C2033 /* Main_iPad.storyboard */,
 				6312985219428E7C002C2033 /* ViewController.h */,
 				6312985319428E7C002C2033 /* ViewController.m */,
+				D2763C21194362F8001057F8 /* Model */,
 				6312985519428E7C002C2033 /* Images.xcassets */,
 				6312984119428E7C002C2033 /* Supporting Files */,
 			);
@@ -132,6 +135,7 @@
 		6312984119428E7C002C2033 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6312987419429E55002C2033 /* background.png */,
 				6312984219428E7C002C2033 /* HojeHaPraxe-Info.plist */,
 				6312984319428E7C002C2033 /* InfoPlist.strings */,
 				6312984619428E7C002C2033 /* main.m */,
@@ -156,6 +160,15 @@
 				6312986519428E7C002C2033 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2763C21194362F8001057F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2763C2219436308001057F8 /* APIObject.h */,
+				D2763C2319436308001057F8 /* APIObject.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6312985119428E7C002C2033 /* Main_iPad.storyboard in Resources */,
-				6312987519429E55002C2033 /* praxeappbg.png in Resources */,
+				6312987519429E55002C2033 /* background.png in Resources */,
 				6312985619428E7C002C2033 /* Images.xcassets in Resources */,
 				6312984E19428E7C002C2033 /* Main_iPhone.storyboard in Resources */,
 				6312984519428E7C002C2033 /* InfoPlist.strings in Resources */,
@@ -260,6 +273,7 @@
 				6312985419428E7C002C2033 /* ViewController.m in Sources */,
 				6312984B19428E7C002C2033 /* AppDelegate.m in Sources */,
 				6312984719428E7C002C2033 /* main.m in Sources */,
+				D2763C2419436308001057F8 /* APIObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +488,7 @@
 				6312986E19428E7C002C2033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6312986F19428E7C002C2033 /* Build configuration list for PBXNativeTarget "HojeHaPraxeTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +497,7 @@
 				6312987119428E7C002C2033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
