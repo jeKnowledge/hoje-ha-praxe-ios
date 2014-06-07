@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6312983B19428E7C002C2033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6312983A19428E7C002C2033 /* Foundation.framework */; };
+		6312983D19428E7C002C2033 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6312983C19428E7C002C2033 /* CoreGraphics.framework */; };
+		6312983F19428E7C002C2033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6312983E19428E7C002C2033 /* UIKit.framework */; };
+		6312984519428E7C002C2033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6312984319428E7C002C2033 /* InfoPlist.strings */; };
+		6312984719428E7C002C2033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6312984619428E7C002C2033 /* main.m */; };
+		6312984B19428E7C002C2033 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6312984A19428E7C002C2033 /* AppDelegate.m */; };
+		6312984E19428E7C002C2033 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6312984C19428E7C002C2033 /* Main_iPhone.storyboard */; };
+		6312985119428E7C002C2033 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6312984F19428E7C002C2033 /* Main_iPad.storyboard */; };
+		6312985419428E7C002C2033 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6312985319428E7C002C2033 /* ViewController.m */; };
+		6312985619428E7C002C2033 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6312985519428E7C002C2033 /* Images.xcassets */; };
+		6312985D19428E7C002C2033 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6312985C19428E7C002C2033 /* XCTest.framework */; };
+		6312985E19428E7C002C2033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6312983A19428E7C002C2033 /* Foundation.framework */; };
+		6312985F19428E7C002C2033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6312983E19428E7C002C2033 /* UIKit.framework */; };
+		6312986719428E7C002C2033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6312986519428E7C002C2033 /* InfoPlist.strings */; };
+		6312986919428E7C002C2033 /* HojeHaPraxeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6312986819428E7C002C2033 /* HojeHaPraxeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6312986019428E7C002C2033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6312982F19428E7C002C2033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6312983619428E7C002C2033;
+			remoteInfo = HojeHaPraxe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6312983719428E7C002C2033 /* HojeHaPraxe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HojeHaPraxe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6312983A19428E7C002C2033 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6312983C19428E7C002C2033 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6312983E19428E7C002C2033 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6312984219428E7C002C2033 /* HojeHaPraxe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HojeHaPraxe-Info.plist"; sourceTree = "<group>"; };
+		6312984419428E7C002C2033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6312984619428E7C002C2033 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6312984819428E7C002C2033 /* HojeHaPraxe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HojeHaPraxe-Prefix.pch"; sourceTree = "<group>"; };
+		6312984919428E7C002C2033 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6312984A19428E7C002C2033 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6312984D19428E7C002C2033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		6312985019428E7C002C2033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		6312985219428E7C002C2033 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6312985319428E7C002C2033 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6312985519428E7C002C2033 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6312985B19428E7C002C2033 /* HojeHaPraxeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HojeHaPraxeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6312985C19428E7C002C2033 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6312986419428E7C002C2033 /* HojeHaPraxeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HojeHaPraxeTests-Info.plist"; sourceTree = "<group>"; };
+		6312986619428E7C002C2033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6312986819428E7C002C2033 /* HojeHaPraxeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HojeHaPraxeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6312983419428E7C002C2033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6312983D19428E7C002C2033 /* CoreGraphics.framework in Frameworks */,
+				6312983F19428E7C002C2033 /* UIKit.framework in Frameworks */,
+				6312983B19428E7C002C2033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6312985819428E7C002C2033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6312985D19428E7C002C2033 /* XCTest.framework in Frameworks */,
+				6312985F19428E7C002C2033 /* UIKit.framework in Frameworks */,
+				6312985E19428E7C002C2033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6312982E19428E7C002C2033 = {
+			isa = PBXGroup;
+			children = (
+				6312984019428E7C002C2033 /* HojeHaPraxe */,
+				6312986219428E7C002C2033 /* HojeHaPraxeTests */,
+				6312983919428E7C002C2033 /* Frameworks */,
+				6312983819428E7C002C2033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6312983819428E7C002C2033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6312983719428E7C002C2033 /* HojeHaPraxe.app */,
+				6312985B19428E7C002C2033 /* HojeHaPraxeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6312983919428E7C002C2033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6312983A19428E7C002C2033 /* Foundation.framework */,
+				6312983C19428E7C002C2033 /* CoreGraphics.framework */,
+				6312983E19428E7C002C2033 /* UIKit.framework */,
+				6312985C19428E7C002C2033 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6312984019428E7C002C2033 /* HojeHaPraxe */ = {
+			isa = PBXGroup;
+			children = (
+				6312984919428E7C002C2033 /* AppDelegate.h */,
+				6312984A19428E7C002C2033 /* AppDelegate.m */,
+				6312984C19428E7C002C2033 /* Main_iPhone.storyboard */,
+				6312984F19428E7C002C2033 /* Main_iPad.storyboard */,
+				6312985219428E7C002C2033 /* ViewController.h */,
+				6312985319428E7C002C2033 /* ViewController.m */,
+				6312985519428E7C002C2033 /* Images.xcassets */,
+				6312984119428E7C002C2033 /* Supporting Files */,
+			);
+			path = HojeHaPraxe;
+			sourceTree = "<group>";
+		};
+		6312984119428E7C002C2033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6312984219428E7C002C2033 /* HojeHaPraxe-Info.plist */,
+				6312984319428E7C002C2033 /* InfoPlist.strings */,
+				6312984619428E7C002C2033 /* main.m */,
+				6312984819428E7C002C2033 /* HojeHaPraxe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6312986219428E7C002C2033 /* HojeHaPraxeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6312986819428E7C002C2033 /* HojeHaPraxeTests.m */,
+				6312986319428E7C002C2033 /* Supporting Files */,
+			);
+			path = HojeHaPraxeTests;
+			sourceTree = "<group>";
+		};
+		6312986319428E7C002C2033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6312986419428E7C002C2033 /* HojeHaPraxeTests-Info.plist */,
+				6312986519428E7C002C2033 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6312983619428E7C002C2033 /* HojeHaPraxe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6312986C19428E7C002C2033 /* Build configuration list for PBXNativeTarget "HojeHaPraxe" */;
+			buildPhases = (
+				6312983319428E7C002C2033 /* Sources */,
+				6312983419428E7C002C2033 /* Frameworks */,
+				6312983519428E7C002C2033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HojeHaPraxe;
+			productName = HojeHaPraxe;
+			productReference = 6312983719428E7C002C2033 /* HojeHaPraxe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6312985A19428E7C002C2033 /* HojeHaPraxeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6312986F19428E7C002C2033 /* Build configuration list for PBXNativeTarget "HojeHaPraxeTests" */;
+			buildPhases = (
+				6312985719428E7C002C2033 /* Sources */,
+				6312985819428E7C002C2033 /* Frameworks */,
+				6312985919428E7C002C2033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6312986119428E7C002C2033 /* PBXTargetDependency */,
+			);
+			name = HojeHaPraxeTests;
+			productName = HojeHaPraxeTests;
+			productReference = 6312985B19428E7C002C2033 /* HojeHaPraxeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6312982F19428E7C002C2033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jeKnowledge;
+				TargetAttributes = {
+					6312985A19428E7C002C2033 = {
+						TestTargetID = 6312983619428E7C002C2033;
+					};
+				};
+			};
+			buildConfigurationList = 6312983219428E7C002C2033 /* Build configuration list for PBXProject "HojeHaPraxe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6312982E19428E7C002C2033;
+			productRefGroup = 6312983819428E7C002C2033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6312983619428E7C002C2033 /* HojeHaPraxe */,
+				6312985A19428E7C002C2033 /* HojeHaPraxeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6312983519428E7C002C2033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6312985119428E7C002C2033 /* Main_iPad.storyboard in Resources */,
+				6312985619428E7C002C2033 /* Images.xcassets in Resources */,
+				6312984E19428E7C002C2033 /* Main_iPhone.storyboard in Resources */,
+				6312984519428E7C002C2033 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6312985919428E7C002C2033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6312986719428E7C002C2033 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6312983319428E7C002C2033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6312985419428E7C002C2033 /* ViewController.m in Sources */,
+				6312984B19428E7C002C2033 /* AppDelegate.m in Sources */,
+				6312984719428E7C002C2033 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6312985719428E7C002C2033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6312986919428E7C002C2033 /* HojeHaPraxeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6312986119428E7C002C2033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6312983619428E7C002C2033 /* HojeHaPraxe */;
+			targetProxy = 6312986019428E7C002C2033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6312984319428E7C002C2033 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6312984419428E7C002C2033 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6312984C19428E7C002C2033 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6312984D19428E7C002C2033 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6312984F19428E7C002C2033 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6312985019428E7C002C2033 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6312986519428E7C002C2033 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6312986619428E7C002C2033 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6312986A19428E7C002C2033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6312986B19428E7C002C2033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6312986D19428E7C002C2033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HojeHaPraxe/HojeHaPraxe-Prefix.pch";
+				INFOPLIST_FILE = "HojeHaPraxe/HojeHaPraxe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6312986E19428E7C002C2033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HojeHaPraxe/HojeHaPraxe-Prefix.pch";
+				INFOPLIST_FILE = "HojeHaPraxe/HojeHaPraxe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6312987019428E7C002C2033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HojeHaPraxe.app/HojeHaPraxe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HojeHaPraxe/HojeHaPraxe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HojeHaPraxeTests/HojeHaPraxeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6312987119428E7C002C2033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HojeHaPraxe.app/HojeHaPraxe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HojeHaPraxe/HojeHaPraxe-Prefix.pch";
+				INFOPLIST_FILE = "HojeHaPraxeTests/HojeHaPraxeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6312983219428E7C002C2033 /* Build configuration list for PBXProject "HojeHaPraxe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6312986A19428E7C002C2033 /* Debug */,
+				6312986B19428E7C002C2033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6312986C19428E7C002C2033 /* Build configuration list for PBXNativeTarget "HojeHaPraxe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6312986D19428E7C002C2033 /* Debug */,
+				6312986E19428E7C002C2033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6312986F19428E7C002C2033 /* Build configuration list for PBXNativeTarget "HojeHaPraxeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6312987019428E7C002C2033 /* Debug */,
+				6312987119428E7C002C2033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6312982F19428E7C002C2033 /* Project object */;
+}
