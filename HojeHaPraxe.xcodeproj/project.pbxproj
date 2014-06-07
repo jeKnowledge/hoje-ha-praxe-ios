@@ -22,7 +22,7 @@
 		6312985F19428E7C002C2033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6312983E19428E7C002C2033 /* UIKit.framework */; };
 		6312986719428E7C002C2033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6312986519428E7C002C2033 /* InfoPlist.strings */; };
 		6312986919428E7C002C2033 /* HojeHaPraxeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6312986819428E7C002C2033 /* HojeHaPraxeTests.m */; };
-		6312987319429BFE002C2033 /* praxeappbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6312987219429BFE002C2033 /* praxeappbg.png */; };
+		6312987519429E55002C2033 /* praxeappbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6312987419429E55002C2033 /* praxeappbg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		6312986419428E7C002C2033 /* HojeHaPraxeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HojeHaPraxeTests-Info.plist"; sourceTree = "<group>"; };
 		6312986619428E7C002C2033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6312986819428E7C002C2033 /* HojeHaPraxeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HojeHaPraxeTests.m; sourceTree = "<group>"; };
-		6312987219429BFE002C2033 /* praxeappbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = praxeappbg.png; path = "../../AndroidStudioProjects/HojeHaPraxe/app/src/main/res/drawable-mdpi/praxeappbg.png"; sourceTree = "<group>"; };
+		6312987419429E55002C2033 /* praxeappbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = praxeappbg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 		6312982E19428E7C002C2033 = {
 			isa = PBXGroup;
 			children = (
-				6312987219429BFE002C2033 /* praxeappbg.png */,
+				6312987419429E55002C2033 /* praxeappbg.png */,
 				6312984019428E7C002C2033 /* HojeHaPraxe */,
 				6312986219428E7C002C2033 /* HojeHaPraxeTests */,
 				6312983919428E7C002C2033 /* Frameworks */,
@@ -235,8 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6312985119428E7C002C2033 /* Main_iPad.storyboard in Resources */,
+				6312987519429E55002C2033 /* praxeappbg.png in Resources */,
 				6312985619428E7C002C2033 /* Images.xcassets in Resources */,
-				6312987319429BFE002C2033 /* praxeappbg.png in Resources */,
 				6312984E19428E7C002C2033 /* Main_iPhone.storyboard in Resources */,
 				6312984519428E7C002C2033 /* InfoPlist.strings in Resources */,
 			);
