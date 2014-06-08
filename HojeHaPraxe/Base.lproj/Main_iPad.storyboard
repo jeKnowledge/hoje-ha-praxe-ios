@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -15,13 +15,66 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" translatesAutoresizingMaskIntoConstraints="NO" id="hzK-TK-IPk">
+                                <rect key="frame" x="-34" y="-37" width="802" height="1061"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Hoje não pode haver praxe em Coimbra" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="695" translatesAutoresizingMaskIntoConstraints="NO" id="78g-BR-8YL">
+                                <rect key="frame" x="37" y="44" width="695" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="48"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Faleceu o professor Lorem Ipsum do Departamento de Física." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="695" translatesAutoresizingMaskIntoConstraints="NO" id="lY7-TU-CyQ">
+                                <rect key="frame" x="37" y="159" width="695" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notificação oficial, do Conselho de Veteranos da Universidade de Coimbra." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="695" translatesAutoresizingMaskIntoConstraints="NO" id="aMl-JC-Mus">
+                                <rect key="frame" x="37" y="938" width="695" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="nNL-kv-u1k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="aMl-JC-Mus" secondAttribute="bottom" constant="20" symbolic="YES" id="0oJ-4T-OdE"/>
+                            <constraint firstItem="aMl-JC-Mus" firstAttribute="trailing" secondItem="lY7-TU-CyQ" secondAttribute="trailing" id="39X-zh-jfe"/>
+                            <constraint firstItem="aMl-JC-Mus" firstAttribute="leading" secondItem="78g-BR-8YL" secondAttribute="leading" id="F18-bm-B8G"/>
+                            <constraint firstAttribute="bottom" secondItem="hzK-TK-IPk" secondAttribute="bottom" id="MqY-ow-Wem"/>
+                            <constraint firstItem="aMl-JC-Mus" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YF3-PJ-n9n"/>
+                            <constraint firstItem="aMl-JC-Mus" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="37" id="arV-ZI-MaW"/>
+                            <constraint firstItem="hzK-TK-IPk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-34" id="asq-un-zWS"/>
+                            <constraint firstItem="aMl-JC-Mus" firstAttribute="leading" secondItem="lY7-TU-CyQ" secondAttribute="leading" id="b5C-cm-JPE"/>
+                            <constraint firstAttribute="trailing" secondItem="hzK-TK-IPk" secondAttribute="trailing" id="olh-jW-OQY"/>
+                            <constraint firstItem="hzK-TK-IPk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-37" id="qPb-LL-MHZ"/>
+                            <constraint firstItem="aMl-JC-Mus" firstAttribute="trailing" secondItem="78g-BR-8YL" secondAttribute="trailing" id="rk5-96-lGB"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="haPraxeLabel" destination="78g-BR-8YL" id="RbF-zT-oPs"/>
+                        <outlet property="notificationLabel" destination="aMl-JC-Mus" id="pPy-3l-aLO"/>
+                        <outlet property="reasonLabel" destination="lY7-TU-CyQ" id="9vW-At-cTs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="84" y="-48"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background_ipad.png" width="1107" height="751"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
