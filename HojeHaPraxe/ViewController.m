@@ -20,8 +20,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    //Display background image
-    self.backgroundImage.image = [UIImage imageNamed:@"background.png" ];
     
     APIObject *api = [[APIObject alloc] init];
     self.result = [api fetchData];
