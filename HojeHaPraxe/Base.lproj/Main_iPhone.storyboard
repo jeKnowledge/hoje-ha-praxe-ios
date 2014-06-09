@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iro-Dl-Pdd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Iro-Dl-Pdd">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -29,7 +29,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Faleceu o professor Lorem Ipsum do Departamento de Física." lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="p0K-FW-n8a">
-                                <rect key="frame" x="20" y="180" width="280" height="81"/>
+                                <rect key="frame" x="20" y="180" width="280" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -54,7 +54,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="backgroundImage" destination="Iro-Dl-Pdd" id="Z6r-Uh-KWA"/>
                         <outlet property="haPraxeLabel" destination="Kib-LQ-JLv" id="rLl-6a-uOF"/>
                         <outlet property="notificationLabel" destination="Rcp-Gy-Ou4" id="uJ1-rP-6Qh"/>
                         <outlet property="reasonLabel" destination="p0K-FW-n8a" id="R1o-6h-oEj"/>
@@ -64,6 +63,9 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="background.png" width="1729" height="1546"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

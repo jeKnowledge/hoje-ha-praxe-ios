@@ -15,9 +15,6 @@
 //Display Info Function
 -(void)displayInfo;
 
-//Background Image
-@property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
-
 //Dynamic Text Labels
 @property (weak, nonatomic) IBOutlet UILabel *haPraxeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *reasonLabel;
