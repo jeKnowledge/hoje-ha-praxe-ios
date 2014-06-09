@@ -1,4 +1,4 @@
-hoje-ha-praxe
--------------
+hoje-ha-praxe-ios
+-----------------
 
-A aplicaçãoara iOS que te diz se há raxe em Coimbra ou não.
+A aplicação para iOS que te diz se pode haver praxe em Coimbra ou não.
