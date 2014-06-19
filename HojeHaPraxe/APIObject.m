@@ -16,15 +16,22 @@
     NSData *praxeData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://jbernardo.com/result.html"]];
     
     NSError *error;
-    NSMutableDictionary *praxeDataOrganized = [NSJSONSerialization JSONObjectWithData:praxeData options: NSJSONReadingMutableContainers error:&error];
     
-    if(error)
+    if (praxeData == nil) // Error: server not available
     {
         return nil;
     }
     else
     {
-        return praxeDataOrganized;
+        NSMutableDictionary *praxeDataOrganized = [NSJSONSerialization JSONObjectWithData:praxeData options: NSJSONReadingMutableContainers error:&error];
+        if(error) // Error: JSON parsing failed
+        {
+            return nil;
+        }
+        else
+        {
+            return praxeDataOrganized;
+        }
     }
 }
 
