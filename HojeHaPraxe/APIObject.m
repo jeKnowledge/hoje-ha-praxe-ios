@@ -23,7 +23,8 @@
     {
         NSError *error;
         NSMutableDictionary *praxeDataOrganized = [NSJSONSerialization JSONObjectWithData:praxeData options: NSJSONReadingMutableContainers error:&error];
-        if(error) // Error: JSON parsing failed
+
+        if (error) // Error: JSON parsing failed
         {
             return nil;
         }
