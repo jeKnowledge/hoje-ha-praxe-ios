@@ -13,7 +13,7 @@
 //Function fetches data from server
 -(NSMutableDictionary *)fetchData
 {
-    NSData *praxeData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://jbernardo.com/result.html"]];
+    NSData *praxeData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://praxe.herokuapp.com/result"]];
     
     if (praxeData == nil) // Error: server not available
     {
