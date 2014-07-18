@@ -49,13 +49,13 @@
     
     if ([hapraxe isEqualToString:@"true"])
     {
-        self.haPraxeLabel.text = [NSString stringWithFormat:@"Hoje pode haver praxe em Coimbra"];
+        self.haPraxeLabel.text = [NSString stringWithFormat:@"Hoje pode haver praxe em Coimbra."];
         self.reasonLabel.text = [NSString stringWithFormat:@""];
         self.notificationLabel.text = [self.result objectForKey:@"notification"];
     }
     else if ([hapraxe isEqualToString:@"false"])
     {
-        self.haPraxeLabel.text = [NSString stringWithFormat:@"Hoje não pode haver praxe em Coimbra"];
+        self.haPraxeLabel.text = [NSString stringWithFormat:@"Hoje não pode haver praxe em Coimbra."];
         self.reasonLabel.text = [self.result objectForKey:@"reason"];
         self.notificationLabel.text = [self.result objectForKey:@"notification"];
     }
