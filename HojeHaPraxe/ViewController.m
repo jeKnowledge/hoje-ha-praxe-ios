@@ -30,8 +30,8 @@
     }
     else
     {
-        self.haPraxeLabel.text = [NSString stringWithFormat:@"Erro"];
-        self.reasonLabel.text = [NSString stringWithFormat:@"Problemas em obter dados do servidor"];
+        self.haPraxeLabel.text = [NSString stringWithFormat:@"Erro na ligação ao servidor."];
+        self.reasonLabel.text = [NSString stringWithFormat:@""];
         self.notificationLabel.text = [NSString stringWithFormat:@""];
     }
 }
